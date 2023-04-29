@@ -525,6 +525,6 @@ def standardization(i):
 if __name__ == '__main__':
     inputs = [0, 1, 2, 3]
     # Set the number of handlers
-    pool = Pool(1)
+    pool = Pool(4)
     # Run multiprocessing
     pool_output = pool.map(standardization, inputs)
